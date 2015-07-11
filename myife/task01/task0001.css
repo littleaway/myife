@@ -1,0 +1,185 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: myFirstFont;
+	src:url('Sansation_Light.ttf'),
+		url('Sansation_Light.eot');
+}
+
+h1{
+	color: blue;
+	font-size: 20px;
+	font-family: myFirstFont;
+}
+
+ul{
+	list-style-type: square;
+}
+
+ul a{
+	text-decoration: none;
+}
+
+h2{
+	font-size: 14px;
+	text-indent: 10%;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: left;
+	word-spacing: 20px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+.div0 p{
+	font-size: 12px;
+	color: yellow;
+	background-color: black;
+	width:500px;
+	line-height: 1.5;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-width: 2px 2px;
+	border-color: red;
+}
+
+.div11{
+	background-color: red;
+	width: 960px;
+	height: 100px;
+	line-height: 100px;
+	position: relative;
+	margin:auto;
+	margin-bottom: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.div12{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+	display: -webkit-flex;
+	display:         flex;
+	-webkit-align-items:center;
+	        align-items:center;
+	-webkit-justify-content:center;
+            justify-content:center;
+}
+
+.div12 p{
+	background-color: green;
+	width: 960px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.div31A{
+	background-color: red;
+	float: left;
+	width: 200px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.div31B{
+	background-color: blue;	
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.div32A{
+	background-color: red;
+	width: 200px;
+	height: 20px;
+	margin-bottom: 10px;
+	position: absolute;
+}
+
+.div32B{
+	background-color: blue;
+	height: 20px;
+	margin-bottom: 10px;
+	position: relative;
+	margin-left: 200px;
+}
+
+.div41{
+	text-align: center;
+	padding: 0 200px 0 100px;
+}
+.div41l{
+	background-color: red;
+	height: 20px;
+	width: 100px;
+	float: left;
+	margin-left: -100%;
+	position: relative;
+	left: -100px;
+}
+
+.div41r{
+	background-color: blue;
+	height: 20px;
+	width: 200px;
+	float: left;
+	margin-left: -200px;
+	position: relative;
+	right: -200px;
+}
+
+.div41m{
+	background-color: yellow;
+	height: 20px;
+	width: 100%;
+	float: left;
+}
+
+.div42{
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.div42l{
+	background-color: red;
+	width: 100px;
+	height: 20px;
+}
+
+.div42m{
+	background-color: yellow;
+	height: 20px;
+	flex:1;	
+}
+
+.div42r{
+	background-color: blue;
+	height: 20px;
+	width: 200px;
+}
+
+.container{
+	margin-top: 10px;
+	background-color: red;
+	display: block;
+}
+
+.box{
+	width: 200px;
+	height: 100px;
+	background-color: blue;
+	display: inline-block;
+}
